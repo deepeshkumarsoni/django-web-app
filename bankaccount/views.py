@@ -18,3 +18,6 @@ def services(request):
 def dateview(request):
     x='<h1>The Current Date and Time is {}</h1>'.format(dt)
     return HttpResponse (x)
+
+def deposite(request):
+    
