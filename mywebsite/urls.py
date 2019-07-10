@@ -23,5 +23,6 @@ urlpatterns = [
     url(r'^home/',views.home),
     url(r'^contact/',views.contact),
     url(r'^services/',views.services),
+    url(r'^date/',views.dateview),
     url(r'^$',views.home)
 ]
